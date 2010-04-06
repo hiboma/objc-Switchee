@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87033FBF105000A70021F48F /* SwitcheeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87033FBE105000A70021F48F /* SwitcheeTableView.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C44118C20F1503F2007D3AB3 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44118C10F1503F2007D3AB3 /* Carbon.framework */; };
+		C48D11BC0F1776950031BBA8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48D11BB0F1776950031BBA8 /* Carbon.framework */; };
+		C48D149F0F19A9290031BBA8 /* PTKeyCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = C48D13D20F18B18E0031BBA8 /* PTKeyCodes.plist */; };
+		C48D14A00F19A9290031BBA8 /* PTKeyComboPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = C48D13D40F18B18E0031BBA8 /* PTKeyComboPanel.nib */; };
+		C4E476BC0F14C4770092B894 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = C4E476BA0F14C4770092B894 /* MainMenu.nib */; };
+		C4E477880F14EC910092B894 /* IconedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E477870F14EC910092B894 /* IconedCell.m */; };
+		C4FB7A640F1C3BDC000CF763 /* PTHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB7A570F1C3BDC000CF763 /* PTHotKey.m */; };
+		C4FB7A650F1C3BDC000CF763 /* PTHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB7A5A0F1C3BDC000CF763 /* PTHotKeyCenter.m */; };
+		C4FB7A660F1C3BDC000CF763 /* PTKeyboardIcon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C4FB7A5B0F1C3BDC000CF763 /* PTKeyboardIcon.tiff */; };
+		C4FB7A670F1C3BDC000CF763 /* PTKeyComboPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB7A5C0F1C3BDC000CF763 /* PTKeyComboPanel.m */; };
+		C4FB7A680F1C3BDC000CF763 /* PTKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB7A5D0F1C3BDC000CF763 /* PTKeyCombo.m */; };
+		C4FB7A690F1C3BDC000CF763 /* PTKeyCodeTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB7A5E0F1C3BDC000CF763 /* PTKeyCodeTranslator.m */; };
+		C4FB7A6A0F1C3BDC000CF763 /* PTKeyBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB7A610F1C3BDC000CF763 /* PTKeyBroadcaster.m */; };
+		C4FB7A710F1C3BF0000CF763 /* Switchee.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB7A6B0F1C3BF0000CF763 /* Switchee.m */; };
+		C4FB7A720F1C3BF0000CF763 /* SwitcheeRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB7A6E0F1C3BF0000CF763 /* SwitcheeRegistry.m */; };
+		C4FB7A730F1C3BF0000CF763 /* SwitcheeApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB7A700F1C3BF0000CF763 /* SwitcheeApplication.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Switchee_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switchee_Prefix.pch; sourceTree = "<group>"; };
+		87033FBD105000A70021F48F /* SwitcheeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitcheeTableView.h; sourceTree = "<group>"; };
+		87033FBE105000A70021F48F /* SwitcheeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitcheeTableView.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Switchee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Switchee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44118C10F1503F2007D3AB3 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		C48D11BB0F1776950031BBA8 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		C48D13D30F18B18E0031BBA8 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Japanese; path = Japanese.lproj/PTKeyCodes.plist; sourceTree = "<group>"; };
+		C48D13D50F18B18E0031BBA8 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/PTKeyComboPanel.nib; sourceTree = "<group>"; };
+		C4E476BB0F14C4770092B894 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		C4E477860F14EC910092B894 /* IconedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconedCell.h; sourceTree = "<group>"; };
+		C4E477870F14EC910092B894 /* IconedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconedCell.m; sourceTree = "<group>"; };
+		C4E4791D0F1502A80092B894 /* HIToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HIToolbox.framework; path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework; sourceTree = "<absolute>"; };
+		C4FB7A570F1C3BDC000CF763 /* PTHotKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTHotKey.m; path = external/PTHotKey.m; sourceTree = "<group>"; };
+		C4FB7A580F1C3BDC000CF763 /* PTHotKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTHotKey.h; path = external/PTHotKey.h; sourceTree = "<group>"; };
+		C4FB7A590F1C3BDC000CF763 /* PTKeyCodeTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTKeyCodeTranslator.h; path = external/PTKeyCodeTranslator.h; sourceTree = "<group>"; };
+		C4FB7A5A0F1C3BDC000CF763 /* PTHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTHotKeyCenter.m; path = external/PTHotKeyCenter.m; sourceTree = "<group>"; };
+		C4FB7A5B0F1C3BDC000CF763 /* PTKeyboardIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = PTKeyboardIcon.tiff; path = external/PTKeyboardIcon.tiff; sourceTree = "<group>"; };
+		C4FB7A5C0F1C3BDC000CF763 /* PTKeyComboPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTKeyComboPanel.m; path = external/PTKeyComboPanel.m; sourceTree = "<group>"; };
+		C4FB7A5D0F1C3BDC000CF763 /* PTKeyCombo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTKeyCombo.m; path = external/PTKeyCombo.m; sourceTree = "<group>"; };
+		C4FB7A5E0F1C3BDC000CF763 /* PTKeyCodeTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTKeyCodeTranslator.m; path = external/PTKeyCodeTranslator.m; sourceTree = "<group>"; };
+		C4FB7A5F0F1C3BDC000CF763 /* PTKeyCombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTKeyCombo.h; path = external/PTKeyCombo.h; sourceTree = "<group>"; };
+		C4FB7A600F1C3BDC000CF763 /* PTHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTHotKeyCenter.h; path = external/PTHotKeyCenter.h; sourceTree = "<group>"; };
+		C4FB7A610F1C3BDC000CF763 /* PTKeyBroadcaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTKeyBroadcaster.m; path = external/PTKeyBroadcaster.m; sourceTree = "<group>"; };
+		C4FB7A620F1C3BDC000CF763 /* PTKeyComboPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTKeyComboPanel.h; path = external/PTKeyComboPanel.h; sourceTree = "<group>"; };
+		C4FB7A630F1C3BDC000CF763 /* PTKeyBroadcaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTKeyBroadcaster.h; path = external/PTKeyBroadcaster.h; sourceTree = "<group>"; };
+		C4FB7A6B0F1C3BF0000CF763 /* Switchee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Switchee.m; path = source/Switchee.m; sourceTree = "<group>"; };
+		C4FB7A6C0F1C3BF0000CF763 /* SwitcheeApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitcheeApplication.h; path = source/SwitcheeApplication.h; sourceTree = "<group>"; };
+		C4FB7A6D0F1C3BF0000CF763 /* SwitcheeRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitcheeRegistry.h; path = source/SwitcheeRegistry.h; sourceTree = "<group>"; };
+		C4FB7A6E0F1C3BF0000CF763 /* SwitcheeRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwitcheeRegistry.m; path = source/SwitcheeRegistry.m; sourceTree = "<group>"; };
+		C4FB7A6F0F1C3BF0000CF763 /* Switchee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Switchee.h; path = source/Switchee.h; sourceTree = "<group>"; };
+		C4FB7A700F1C3BF0000CF763 /* SwitcheeApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwitcheeApplication.m; path = source/SwitcheeApplication.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				C44118C20F1503F2007D3AB3 /* Carbon.framework in Frameworks */,
+				C48D11BC0F1776950031BBA8 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4FB7A6B0F1C3BF0000CF763 /* Switchee.m */,
+				C4FB7A6C0F1C3BF0000CF763 /* SwitcheeApplication.h */,
+				C4FB7A6D0F1C3BF0000CF763 /* SwitcheeRegistry.h */,
+				C4FB7A6E0F1C3BF0000CF763 /* SwitcheeRegistry.m */,
+				C4FB7A6F0F1C3BF0000CF763 /* Switchee.h */,
+				C4FB7A700F1C3BF0000CF763 /* SwitcheeApplication.m */,
+				C4E477860F14EC910092B894 /* IconedCell.h */,
+				C4E477870F14EC910092B894 /* IconedCell.m */,
+				87033FBD105000A70021F48F /* SwitcheeTableView.h */,
+				87033FBE105000A70021F48F /* SwitcheeTableView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C44118C10F1503F2007D3AB3 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4791D0F1502A80092B894 /* HIToolbox.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Switchee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Switchee */ = {
+			isa = PBXGroup;
+			children = (
+				C48D13F20F18B3390031BBA8 /* External Sources */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Switchee;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Switchee_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C48D13D10F18B18E0031BBA8 /* Japanese.lproj */,
+				C48D11BB0F1776950031BBA8 /* Carbon.framework */,
+				C4E476BA0F14C4770092B894 /* MainMenu.nib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C48D13D10F18B18E0031BBA8 /* Japanese.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C48D13D20F18B18E0031BBA8 /* PTKeyCodes.plist */,
+				C48D13D40F18B18E0031BBA8 /* PTKeyComboPanel.nib */,
+			);
+			path = Japanese.lproj;
+			sourceTree = "<group>";
+		};
+		C48D13F20F18B3390031BBA8 /* External Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C4FB7A570F1C3BDC000CF763 /* PTHotKey.m */,
+				C4FB7A580F1C3BDC000CF763 /* PTHotKey.h */,
+				C4FB7A590F1C3BDC000CF763 /* PTKeyCodeTranslator.h */,
+				C4FB7A5A0F1C3BDC000CF763 /* PTHotKeyCenter.m */,
+				C4FB7A5B0F1C3BDC000CF763 /* PTKeyboardIcon.tiff */,
+				C4FB7A5C0F1C3BDC000CF763 /* PTKeyComboPanel.m */,
+				C4FB7A5D0F1C3BDC000CF763 /* PTKeyCombo.m */,
+				C4FB7A5E0F1C3BDC000CF763 /* PTKeyCodeTranslator.m */,
+				C4FB7A5F0F1C3BDC000CF763 /* PTKeyCombo.h */,
+				C4FB7A600F1C3BDC000CF763 /* PTHotKeyCenter.h */,
+				C4FB7A610F1C3BDC000CF763 /* PTKeyBroadcaster.m */,
+				C4FB7A620F1C3BDC000CF763 /* PTKeyComboPanel.h */,
+				C4FB7A630F1C3BDC000CF763 /* PTKeyBroadcaster.h */,
+			);
+			name = "External Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Switchee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Switchee" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Switchee;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Switchee;
+			productReference = 8D1107320486CEB800E47090 /* Switchee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Switchee" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Switchee */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Switchee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48D149F0F19A9290031BBA8 /* PTKeyCodes.plist in Resources */,
+				C48D14A00F19A9290031BBA8 /* PTKeyComboPanel.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				C4E476BC0F14C4770092B894 /* MainMenu.nib in Resources */,
+				C4FB7A660F1C3BDC000CF763 /* PTKeyboardIcon.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				C4E477880F14EC910092B894 /* IconedCell.m in Sources */,
+				C4FB7A640F1C3BDC000CF763 /* PTHotKey.m in Sources */,
+				C4FB7A650F1C3BDC000CF763 /* PTHotKeyCenter.m in Sources */,
+				C4FB7A670F1C3BDC000CF763 /* PTKeyComboPanel.m in Sources */,
+				C4FB7A680F1C3BDC000CF763 /* PTKeyCombo.m in Sources */,
+				C4FB7A690F1C3BDC000CF763 /* PTKeyCodeTranslator.m in Sources */,
+				C4FB7A6A0F1C3BDC000CF763 /* PTKeyBroadcaster.m in Sources */,
+				C4FB7A710F1C3BF0000CF763 /* Switchee.m in Sources */,
+				C4FB7A720F1C3BF0000CF763 /* SwitcheeRegistry.m in Sources */,
+				C4FB7A730F1C3BF0000CF763 /* SwitcheeApplication.m in Sources */,
+				87033FBF105000A70021F48F /* SwitcheeTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C48D13D20F18B18E0031BBA8 /* PTKeyCodes.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48D13D30F18B18E0031BBA8 /* Japanese */,
+			);
+			name = PTKeyCodes.plist;
+			sourceTree = "<group>";
+		};
+		C48D13D40F18B18E0031BBA8 /* PTKeyComboPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48D13D50F18B18E0031BBA8 /* Japanese */,
+			);
+			name = PTKeyComboPanel.nib;
+			sourceTree = "<group>";
+		};
+		C4E476BA0F14C4770092B894 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E476BB0F14C4770092B894 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Switchee_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Switchee;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Switchee_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Switchee;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = /System/Library/Frameworks/;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/System/Library/Frameworks/Carbon.framework//**";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = /System/Library/Frameworks/;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/System/Library/Frameworks/Carbon.framework//**";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Switchee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Switchee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

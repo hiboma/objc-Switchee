@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Switchee' target in the 'Switchee' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
